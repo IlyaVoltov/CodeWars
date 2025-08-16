@@ -1,8 +1,12 @@
-def odd_or_even(arr):
+def find_smallest_int(arr):
+    # Code here
     for i in arr:
-        if sum(arr) % 2 == 0:
-            return "even"
-        else:
-            return "odd"
+        min_n = min(arr)
+    return min_n
 
-odd_or_even([0, 1, 4])
+
+
+
+
+
+find_smallest_int([78, 56, 232, 12, 11, 43]) #11
